@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="controllers">
+      <UniqueIdentifier>{abd3ac05-756f-47d3-bf5d-40a418653ded}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="services">
+      <UniqueIdentifier>{d696490c-96c9-4f54-9ca1-7aaff49f10d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="models">
+      <UniqueIdentifier>{928fb93e-b402-42c8-8c66-8a3f90f5007a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="repositories">
+      <UniqueIdentifier>{93acc0b9-e772-4b6b-939f-5dcd0fb46387}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{0e9d7b41-a8eb-4b09-9315-72184b4a0bd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{24dba972-8ef0-4864-8b57-b07ae910a723}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{759f99b2-4bd1-49a5-bef2-a923fbd79d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tests">
+      <UniqueIdentifier>{4e94893e-483f-45cb-b863-9f09464c7d00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dlls">
+      <UniqueIdentifier>{d1a1036e-4cba-47eb-b0fe-8b00db5ab636}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GymManagementApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Authentication.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="RoleManager.cpp">
+      <Filter>controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="User.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="Member.cpp">
+      <Filter>models</Filter>
+    </ClCompile>
+    <ClCompile Include="MemberService.cpp">
+      <Filter>services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Authentication.h">
+      <Filter>controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="RoleManager.h">
+      <Filter>controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="User.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="Member.h">
+      <Filter>models</Filter>
+    </ClInclude>
+    <ClInclude Include="MemberService.h">
+      <Filter>services</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

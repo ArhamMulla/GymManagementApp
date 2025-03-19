@@ -1,0 +1,4 @@
+﻿  GymManagementApp.cpp
+C:\Users\armu\OneDrive - Veralto\Desktop\GymManagementApp\GymManagementApp\GymManagementApp.cpp(70,47): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\armu\OneDrive - Veralto\Desktop\GymManagementApp\GymManagementApp\GymManagementApp.cpp(79,42): warning C4305: 'argument': truncation from 'double' to 'float'
+  GymManagementApp.vcxproj -> C:\Users\armu\OneDrive - Veralto\Desktop\GymManagementApp\x64\Debug\GymManagementApp.exe
